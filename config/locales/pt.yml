@@ -1,0 +1,7 @@
+pt:
+  hello: "Fala, tu!"
+  products:
+    index:
+      title: "Produtos"
+    show:
+      quantity: "Quantidade"

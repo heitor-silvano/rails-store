@@ -4,11 +4,16 @@
   <%end%>
 
   <div>
-    <%= form.label :name%>
-    <%= form.text_field :name%>
+    <%= form.label :featured_image, style: "display: block"%>
+    <%= form.file_field :featured_image, accept: "image/*"%>
 
     <%= form.label :description, style: "display: block"%>
     <%= form.rich_textarea :description%>
+  </div>
+
+  <div>
+    <%= form.label :iventory_count, style: "display:block" %>
+    <%= form.number_field :inventory_count%>
   </div>
 
   <div>
